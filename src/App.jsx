@@ -1,14 +1,15 @@
 import { useState } from "react"
-import Login from "./pages/Login"
-import Register from "./pages/Register"
+import Home from "./pages/Home/Home"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 function App() {
-  const [page, setPage] = useState("login")
 
   return (
     <div>
-      {page === "login" && <Login setPage={setPage} />}
-      {page === "register" && <Register setPage={setPage} />}
+      <Header />
+      <Home />
+      <Footer />
     </div>
   )
 }
