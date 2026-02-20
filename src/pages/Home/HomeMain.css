@@ -1,0 +1,32 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    margin: auto;
+}
+
+.home-title {
+    font-size: 1.4rem;
+    padding: 15px 0;
+}
+
+.home-descricao {
+    line-height: 1.4rem;
+    font-size: 1.4rem;
+}
+
+.home-descricao p {
+    padding: 8px 0;
+}
+
+.home-button {
+    padding: 10px 15px;
+    font-size: .8rem;
+    border-radius: 5px;
+    background-color: rgb(49, 83, 132);
+}
+
+.home-button:hover {
+    background-color: blue;
+}
