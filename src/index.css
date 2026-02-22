@@ -10,8 +10,18 @@
 
   /* Tipografia */
   --font-main: 'Inter', sans-serif;
+
+  /* Color */
+  --color-branco: rgb(253, 252, 252);
+
+  /* Fundo */
+  --fundo-cinza: rgb(226, 228, 234);
+  --fundo-azul: rgb(49, 83, 132);
+  --fundo-azul-botao: blue;
 }
 
 body {
   font-family: var(--font-main);
+
+
 }

@@ -1,6 +1,6 @@
 header {
 
-    background-color: rgb(49, 83, 132);
+    background-color: var(--fundo-azul);
 }
 
 .header-container {
@@ -13,7 +13,9 @@ header {
 }
 
 .logo {
-    font-size: 1.6rem;
+    color: var(--color-branco);
+    font-size: 2.5rem;
+    font-weight: 900;
 }
 
 .header_actions {
@@ -21,14 +23,15 @@ header {
     gap: 20px;
 }
 
-header button {
+.header_actions button {
     padding: 10px;
-    font-size: .7rem;
+    font-size: 1.2rem;
     cursor: pointer;
     border-radius: 5px;
 
 }
 
-header button:hover {
-    background-color: blue;
+.header_actions button:hover {
+    background-color: var(--fundo-azul-botao);
+    color: var(--color-branco);
 }
