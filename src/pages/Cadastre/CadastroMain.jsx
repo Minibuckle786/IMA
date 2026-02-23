@@ -13,25 +13,25 @@ function CadastroMain() {
                         <section className="input-group">
                             <FaUser className="icon" />
                             <label htmlFor="nome"></label>
-                            <input type="text" name="nome" id="nome" placeholder="Nome Completo" />
+                            <input type="text" name="nome" id="nome" placeholder="Nome Completo" required />
                         </section>
 
                         <section className="input-group">
                             <FaEnvelope className="icon" />
                             <label htmlFor="email"></label>
-                            <input type="email" name="email" id="email" placeholder="Email" />
+                            <input type="email" name="email" id="email" placeholder="Email" required />
                         </section>
 
                         <section className="input-group">
                             <FaLock className="icon" />
                             <label htmlFor="senha"></label>
-                            <input type="password" name="senha" id="senha" placeholder="Senha" />
+                            <input type="password" name="senha" id="senha" placeholder="Senha" required />
                         </section>
 
                         <section className="input-group">
                             <FaLock className="icon" />
                             <label htmlFor="ConfirmarSenha"></label>
-                            <input type="password" name="ConfirmarSenha" id="ConfirmarSenha" placeholder="Confirme a Senha" />
+                            <input type="password" name="ConfirmarSenha" id="ConfirmarSenha" placeholder="Confirme a Senha" required />
                         </section>
                     </form>
                     <button className="cadastre-button">Cadastrar</button>
