@@ -12,10 +12,14 @@ header {
     margin: auto;
 }
 
-.logo {
+.logo a {
     color: var(--color-branco);
     font-size: 2.5rem;
     font-weight: 900;
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 .header_actions {
@@ -23,15 +27,16 @@ header {
     gap: 20px;
 }
 
-.header_actions button {
+.header_actions_botao {
     padding: 10px;
     font-size: 1.2rem;
     cursor: pointer;
     border-radius: 5px;
-
+    background-color: var(--color-branco);
+    text-decoration: none;
 }
 
-.header_actions button:hover {
+.header_actions_botao:hover {
     background-color: var(--fundo-azul-botao);
     color: var(--color-branco);
 }

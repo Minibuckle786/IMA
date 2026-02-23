@@ -4,14 +4,11 @@
     min-height: calc(100vh - 119px);
     display: flex;
     justify-content: center;
-    color: var(--fundo-azul);
 }
 
 .home-container {
     background-color: var(--color-branco);
-}
-
-.home-container {
+    color: var(--fundo-azul);
     display: flex;
     align-items: center;
     flex-direction: column;

@@ -1,16 +1,22 @@
-import { useState } from "react"
-import Home from "./pages/Home/Home"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
+import Home from "./pages/Home/Home"
+import Cadastre from "./pages/Cadastre/CadastroMain"
 
 function App() {
 
   return (
-    <div>
+    <BrowserRouter>
       <Header />
-      <Home />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="cadastro" element={<Cadastre />} />
+      </Routes>
+
       <Footer />
-    </div>
+    </BrowserRouter>
   )
 }
 
