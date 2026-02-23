@@ -13,6 +13,29 @@
     align-items: center;
     flex-direction: column;
     width: 90vw;
+    height: 300px;
     margin: auto;
     padding: 10px;
+}
+
+.login-form {
+    width: 80%;
+}
+
+.login-title {
+    font-size: 1.8rem;
+    padding: 15px 0;
+    font-weight: 800;
+}
+
+.login-options {
+    display: flex;
+    width: 80%;
+    font-size: 1.6rem;
+    justify-content: space-between;
+
+}
+
+.login-options div {
+    cursor: pointer;
 }

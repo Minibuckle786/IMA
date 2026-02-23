@@ -6,8 +6,8 @@ function LoginMain() {
     return (
         <main className="login">
             <div className="Login-container">
-                <h1 className="home-title">Login</h1>
-                <form action="" className="cadastre-form ">
+                <h1 className="login-title">Login</h1>
+                <form action="" className="login-form ">
 
                     <section className="input-group">
                         <FaEnvelope className="icon" />
@@ -22,6 +22,11 @@ function LoginMain() {
                     </section>
 
                 </form>
+                <button className="cadastre-button">Logar</button>
+                <div className="login-options">
+                    <div>Esqueceu a senha?</div>
+                    <div>Não tem uma conta? Cadastre-se</div>
+                </div>
 
             </div>
 
