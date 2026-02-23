@@ -9,19 +9,38 @@
     padding: 10px;
 }
 
-.cadastre-form {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.cadastre-layout {
+    height: 34rem;
+    width: 70vw;
+    text-align: center;
 }
 
-.cadastre-form input {
-    padding: 7px 70px 7px 10px;
-    font-size: 1.4rem;
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 15px;
+    background: white;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    flex: 1;
+    margin-left: 8px;
+    font-size: 1rem;
+}
+
+.icon {
+    color: --fundo-azul-botao;
+    width: 24px;
+    height: 24px;
 }
 
 .cadastre-button {
-    padding: 10px 100px;
+    padding: 10px 50px;
     font-size: 1.2rem;
     border-radius: 5px;
     background-color: var(--fundo-azul);
@@ -30,10 +49,18 @@
     cursor: pointer;
 }
 
+.cadastre-button:hover {
+    background-color: var(--fundo-azul-botao);
+}
+
 .cadastre-options {
-    display: flex;
-    gap: 69px;
-    font-size: 1.4rem;
+    padding: 15px 0;
+    font-size: 1.6rem;
     cursor: pointer;
-    margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+    .cadastre-options {
+        font-size: 1.8rem;
+    }
 }
