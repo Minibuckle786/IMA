@@ -1,0 +1,18 @@
+.login {
+    background-color: var(--fundo-cinza);
+    align-items: center;
+    min-height: calc(100vh - 119px);
+    display: flex;
+    justify-content: center;
+}
+
+.Login-container {
+    background-color: var(--color-branco);
+    color: var(--fundo-azul);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+}
