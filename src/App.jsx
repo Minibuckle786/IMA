@@ -3,6 +3,7 @@ import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import Home from "./pages/Home/Home"
 import Cadastre from "./pages/Cadastre/CadastroMain"
+import Login from "./pages/Login/LoginMain"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="cadastro" element={<Cadastre />} />
+        <Route path="login" element={<Login />} />
       </Routes>
 
       <Footer />
