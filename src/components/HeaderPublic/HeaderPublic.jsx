@@ -1,7 +1,7 @@
-import "./header.css"
+import "./HeaderPublic.css"
 import { Link } from "react-router-dom"
 
-function Header() {
+function HeaderPublic() {
     return (
         <header>
             <div className="header-container">
@@ -17,4 +17,4 @@ function Header() {
     )
 }
 
-export default Header
+export default HeaderPublic

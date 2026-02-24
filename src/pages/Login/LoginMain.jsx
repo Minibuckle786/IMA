@@ -2,6 +2,11 @@ import "./LoginMain.css"
 import { Link } from "react-router-dom"
 import { FaEnvelope, FaLock } from "react-icons/fa"
 
+const handleLogin = () => {
+    localStorage.setItem("token", "123456")
+    window.location.href = "/#/dashboard"
+}
+
 function LoginMain() {
     return (
         <main className="login">
@@ -22,7 +27,7 @@ function LoginMain() {
                     </section>
 
                 </form>
-                <button className="cadastre-button">Logar</button>
+                <button onClick={handleLogin} className="cadastre-button">Logar</button>
                 <div className="login-options">
                     <div>Esqueceu a senha?</div>
                     <div>Não tem uma conta? Cadastre-se</div>

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 
-function handleLogout() {
-    localStorage.removeItem("user")
-    navigate("/login")
+const handleLogout = () => {
+    localStorage.removeItem("token")
+    window.location.href = "/#/login"
 }
 
 function HeaderPrivate() {
@@ -14,7 +14,7 @@ function HeaderPrivate() {
                 </div>
                 <nav className="header_actions">
                     <span>Olá, Emerson</span>
-                    <button>Sair</button>
+                    <button onClick={handleLogout}>Sair</button>
                 </nav>
             </div>
         </header>
