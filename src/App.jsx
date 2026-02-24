@@ -12,6 +12,13 @@ function App() {
       <Header />
 
       <Routes>
+        path="/dashboard"
+        element={
+          <PrivateRoute>
+            <Dashboard />
+          </PrivateRoute>
+        } 
+/>
         <Route path="/" element={<Home />} />
         <Route path="cadastro" element={<Cadastre />} />
         <Route path="login" element={<Login />} />
