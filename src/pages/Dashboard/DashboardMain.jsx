@@ -1,4 +1,5 @@
 import "./DashboardMain.css"
+import ServicosPorAssunto from "../ServicosPorAssunto/ServicosPorAssunto"
 
 function DashboardMain() {
     return (
@@ -8,12 +9,14 @@ function DashboardMain() {
                     <h1>Meu Painel</h1>
                 </div>
                 <div>
-                    <button className="DashboardMain-button1">Novo Painel</button>
+                    <button className="DashboardMain-button1"> <span>+</span> Novo Painel</button>
                 </div>
 
             </div>
             <hr />
-            <button className="DashboardMain-button2">Novo Painel</button>
+            <button className="DashboardMain-button2"><span>+</span> Novo Painel</button>
+            <hr />
+            <ServicosPorAssunto />
         </div>
     )
 }

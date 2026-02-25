@@ -1,0 +1,30 @@
+.cards-layout {
+    padding-top: 20px;
+    background-color: var(--fundo-cinza);
+}
+
+.cards-layout h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+.cards li {
+    border: 1px solid red;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: var(--color-branco);
+    border-radius: 10px;
+}
