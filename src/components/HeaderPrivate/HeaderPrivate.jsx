@@ -1,7 +1,11 @@
-import "./header.css"
 import { Link } from "react-router-dom"
 
-function Header() {
+const handleLogout = () => {
+    localStorage.removeItem("token")
+    window.location.href = "/#/login"
+}
+
+function HeaderPrivate() {
     return (
         <header>
             <div className="header-container">
@@ -9,12 +13,12 @@ function Header() {
                     <h1 className="logo"><Link to="/">IMA</Link></h1>
                 </div>
                 <nav className="header_actions">
-                    <Link to="/cadastro" className="header_actions_botao">Cadastrar</Link>
-                    <Link to="/login" className="header_actions_botao">Login</Link>
+                    <span>Olá, Emerson</span>
+                    <button onClick={handleLogout}>Sair</button>
                 </nav>
             </div>
         </header>
     )
 }
 
-export default Header
+export default HeaderPrivate
