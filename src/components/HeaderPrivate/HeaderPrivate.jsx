@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import "./HeaderPrivate.css"
 
 const handleLogout = () => {
     localStorage.removeItem("token")
@@ -12,9 +13,9 @@ function HeaderPrivate() {
                 <div>
                     <h1 className="logo"><Link to="/">IMA</Link></h1>
                 </div>
-                <nav className="header_actions">
+                <nav className="header-private">
                     <span>Olá, Emerson</span>
-                    <button onClick={handleLogout}>Sair</button>
+                    <button className="header_private_botao" onClick={handleLogout}>Sair</button>
                 </nav>
             </div>
         </header>
