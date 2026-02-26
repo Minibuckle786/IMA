@@ -15,6 +15,7 @@
     gap: 30px;
     justify-content: center;
     align-content: center;
+    padding-bottom: 30px;
 }
 
 .cards li {
@@ -22,9 +23,36 @@
     width: 80%;
     height: 150px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 2rem;
     background-color: var(--color-branco);
     border-radius: 10px;
+}
+
+.cards-opcao {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    font-size: 2rem;
+    width: 90%;
+}
+
+.cards-opcao button {
+    background-color: var(--fundo-cinza);
+    padding: 15px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.cards-opcao button:hover {
+    background-color: var(--fundo-azul-botao);
+    color: var(--color-branco);
+}
+
+@media (min-width: 600px) {
+    .cards li {
+        width: 280px;
+    }
 }
