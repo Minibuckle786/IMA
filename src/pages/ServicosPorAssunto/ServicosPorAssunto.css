@@ -1,6 +1,7 @@
 .cards-layout {
     padding-top: 20px;
     background-color: var(--fundo-cinza);
+    text-align: center;
 }
 
 .cards-layout h2 {
