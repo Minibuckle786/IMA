@@ -53,3 +53,17 @@
     font-size: 2rem;
     margin-right: 5px;
 }
+
+.CategoriaDetalhesTriagensLayout {
+    background-color: var(--fundo-cinza);
+    padding: 30px 0;
+}
+
+.CategoriaDetalhesTriagens {
+    background-color: var(--color-branco);
+    width: 90%;
+    margin: auto;
+
+}
+
+.CategoriaDetalhesTriagens
