@@ -11,6 +11,7 @@ import Login from "./pages/Login/LoginMain"
 
 /* Privado */
 import Dashboard from "./pages/Dashboard/DashboardMain"
+import CategoriaDetalhes from "./pages/admin/CategoriaDetalhe"
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
           }
         >
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="CategoriaDetalhes" element={<CategoriaDetalhes />} />
         </Route>
 
       </Routes>

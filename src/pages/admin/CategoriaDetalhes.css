@@ -1,0 +1,55 @@
+.CategoriaDetalhes-fundo {
+    background-color: var(--color-branco);
+}
+
+.CategoriaDetalhes-layout {
+    width: 90%;
+    margin: auto;
+}
+
+.CategoriaDetalhes-texto button {
+    border: none;
+    font-size: 1.35rem;
+    margin: 15px 0;
+    background-color: var(--color-branco);
+}
+
+.CategoriaDetalhes-texto h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.CategoriaDetalhes-texto p {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.CategoriaDetalhes-button {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.CategoriaDetalhes-button-1,
+.CategoriaDetalhes-button-2 {
+    display: flex;
+    padding: 10px;
+    font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.CategoriaDetalhes-button-1 {
+    flex: 2;
+}
+
+.CategoriaDetalhes-button-2 {
+    background-color: green;
+    color: white;
+}
+
+.CategoriaDetalhes-button-2 span {
+    font-size: 2rem;
+    margin-right: 5px;
+}
