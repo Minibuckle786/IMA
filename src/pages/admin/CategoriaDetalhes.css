@@ -66,4 +66,23 @@
 
 }
 
-.CategoriaDetalhesTriagens
+.CategoriaDetalhesCabecalho {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    width: inherit;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.CategoriaDetalhesTriagens p {
+    width: 90%;
+    margin: auto;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+.CategoriaDetalhesOpcoes {
+    width: 90%;
+    margin: auto;
+}
