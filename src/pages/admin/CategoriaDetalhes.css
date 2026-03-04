@@ -24,7 +24,8 @@
     margin-bottom: 15px;
 }
 
-.CategoriaDetalhes-button {
+.CategoriaDetalhes-button,
+link {
     margin-top: 15px;
     display: flex;
     justify-content: space-between;

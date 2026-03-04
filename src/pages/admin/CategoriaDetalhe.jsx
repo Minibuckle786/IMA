@@ -1,4 +1,5 @@
 import "./CategoriaDetalhes.css"
+import { Link } from "react-router-dom"
 
 function CategoriaDetalhes() {
     return (
@@ -29,7 +30,9 @@ function CategoriaDetalhes() {
                         <p>Tipo: Servico digital</p>
                         <p>Ùltima atualização: 20/02/2026</p>
                         <div className="CategoriaDetalhesOpcoes">
-                            <button>Visualizar</button>
+                            <button>
+                                <Link to="/ServiceVisualizar">Visualizar</Link>
+                            </button>
                             <button>Editar</button>
                             <button>Perguntas</button>
                         </div>
