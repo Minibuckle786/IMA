@@ -33,7 +33,9 @@ function CategoriaDetalhes() {
                             <button>
                                 <Link to="/ServiceVisualizar">Visualizar</Link>
                             </button>
-                            <button>Editar</button>
+                            <button>
+                                <Link to="/ServiceEditar">Editar</Link>
+                            </button>
                             <button>Perguntas</button>
                         </div>
                     </div>

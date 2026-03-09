@@ -52,4 +52,18 @@
 
 .opcao {
     font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.card-footer {
+    margin: 20px 0;
+}
+
+.btn-proxima {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color-branco);
+    background-color: var(--fundo-azul-botao);
 }
