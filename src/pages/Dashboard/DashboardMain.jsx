@@ -1,5 +1,5 @@
 import "./DashboardMain.css"
-import ServicosPorAssunto from "../ServicosPorAssunto/ServicosPorAssunto"
+import Categoria from "../admin/Categoria"
 
 function DashboardMain() {
     return (
@@ -17,7 +17,7 @@ function DashboardMain() {
                 <hr />
                 <button className="DashboardMain-button2"><span>+</span> Novo Painel</button>
             </div>
-            <ServicosPorAssunto />
+            <Categoria />
         </>
     )
 }

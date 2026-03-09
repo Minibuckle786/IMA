@@ -11,6 +11,9 @@ import Login from "./pages/Login/LoginMain"
 
 /* Privado */
 import Dashboard from "./pages/Dashboard/DashboardMain"
+import CategoriaDetalhes from "./pages/admin/CategoriaDetalhe"
+import ServiceVisualizar from "./pages/admin/ServiceVisualizar/ServiceVisualizar"
+import ServiceEditar from "./pages/admin/ServiceEditar/ServiceEditar"
 
 function App() {
 
@@ -35,6 +38,9 @@ function App() {
           }
         >
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="CategoriaDetalhes" element={<CategoriaDetalhes />} />
+          <Route path="ServiceVisualizar" element={<ServiceVisualizar />} />
+          <Route path="ServiceEditar" element={<ServiceEditar />} />
         </Route>
 
       </Routes>

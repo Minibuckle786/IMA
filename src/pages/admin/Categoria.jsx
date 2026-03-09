@@ -1,15 +1,18 @@
-import "./ServicosPorAssunto.css"
+import "./Categoria.css"
+import { Link } from "react-router-dom"
 
-function ServicosPorAssunto() {
+function Categoria() {
     return (
 
         <section className="cards-layout">
             <h2>Serviços por assunto</h2>
-            <ul class="cards">
+            <ul className="cards">
                 <li>
                     <span>Água, esgoto e meio ambiente</span>
                     <div className="cards-opcao">
-                        <button>Abrir</button>
+                        <button>
+                            <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
+                        </button>
                         <button>Editar</button>
                     </div>
                 </li>
@@ -53,4 +56,4 @@ function ServicosPorAssunto() {
     )
 }
 
-export default ServicosPorAssunto
+export default Categoria
