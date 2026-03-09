@@ -14,6 +14,7 @@ import Dashboard from "./pages/Dashboard/DashboardMain"
 import CategoriaDetalhes from "./pages/admin/CategoriaDetalhe"
 import ServiceVisualizar from "./pages/admin/ServiceVisualizar/ServiceVisualizar"
 import ServiceEditar from "./pages/admin/ServiceEditar/ServiceEditar"
+import ServicePerguntas from "./pages/admin/ServicePerguntas/ServicePerguntas"
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
           <Route path="CategoriaDetalhes" element={<CategoriaDetalhes />} />
           <Route path="ServiceVisualizar" element={<ServiceVisualizar />} />
           <Route path="ServiceEditar" element={<ServiceEditar />} />
+          <Route path="ServicePerguntas" element={<ServicePerguntas />} />
         </Route>
 
       </Routes>
