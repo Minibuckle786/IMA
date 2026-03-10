@@ -1,4 +1,5 @@
 import "./ServicePerguntas.css"
+import { Link } from "react-router-dom"
 
 function ServicePerguntas() {
     return (
@@ -19,17 +20,23 @@ function ServicePerguntas() {
                         </div>
                         <div className="ServicePerguntas-body">
                             <div className="ServicePerguntas-body-perguntas">
-                                <div>
-                                    <strong>1. Você possui matrícula da SANASA?</strong>
-                                    <p>Tipo: Sim ou Não</p>
+                                <strong>1. Você possui matrícula da SANASA?</strong>
+                                <p>Tipo: Sim ou Não</p>
+                                <div className="ServicePerguntas-body-button">
+                                    <button>
+                                        <Link to="/EditarPerguntas">Editar</Link>
+                                    </button>
+                                    <button>Excluir</button>
                                 </div>
-
+                            </div>
+                            <div className="ServicePerguntas-body-perguntas">
+                                <strong>2. Você possui matrícula da SANASA?</strong>
+                                <p>Tipo: Sim ou Não</p>
                                 <div className="ServicePerguntas-body-button">
                                     <button>Editar</button>
                                     <button>Excluir</button>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>

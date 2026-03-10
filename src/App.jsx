@@ -15,6 +15,7 @@ import CategoriaDetalhes from "./pages/admin/CategoriaDetalhe"
 import ServiceVisualizar from "./pages/admin/ServiceVisualizar/ServiceVisualizar"
 import ServiceEditar from "./pages/admin/ServiceEditar/ServiceEditar"
 import ServicePerguntas from "./pages/admin/ServicePerguntas/ServicePerguntas"
+import EditarPerguntas from "./pages/admin/ServicePerguntas/EditarPerguntas/EditarPerguntas"
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
           <Route path="ServiceVisualizar" element={<ServiceVisualizar />} />
           <Route path="ServiceEditar" element={<ServiceEditar />} />
           <Route path="ServicePerguntas" element={<ServicePerguntas />} />
+          <Route path="EditarPerguntas" element={<EditarPerguntas />} />
         </Route>
 
       </Routes>

@@ -45,7 +45,7 @@
 
  .ServicePerguntas-body {
      background-color: var(--color-branco);
-     padding: 15px 10px;
+     padding: 0 10px 15px 10px;
  }
 
  .ServicePerguntas-body strong {
@@ -58,7 +58,10 @@
  }
 
  .ServicePerguntas-body-button {
+     display: flex;
      font-size: 1.2rem;
+     padding-bottom: 10px;
+     gap: 25px;
  }
 
  .ServicePerguntas-body-button button {
@@ -68,4 +71,10 @@
  .ServicePerguntas-body-perguntas {
      width: 90%;
      border-bottom: 1px solid red;
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-start;
+     flex-direction: column;
+     gap: 10px;
+     padding-top: 15px;
  }

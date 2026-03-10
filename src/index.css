@@ -23,6 +23,26 @@
 
 body {
   font-family: var(--font-main);
+}
 
+.center {
+  width: 90%;
+  margin: auto;
+}
 
+.header-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1.6rem;
+  padding: 20px 0;
+}
+
+.header-body h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.body-fundo {
+  background-color: var(--fundo-cinza);
 }
