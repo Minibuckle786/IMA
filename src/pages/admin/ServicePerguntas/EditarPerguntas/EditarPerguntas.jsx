@@ -17,16 +17,16 @@ function EditarPerguntas() {
 
                             <label htmlFor="" className="EditarPerguntas-1P ">
                                 <p>Texto da Pergunta</p>
-                                <input type="text" placeholder="Você possui matricula da SANASA?" />
+                                <input type="text" placeholder="Digite a pergunta" />
                             </label>
 
                             <div >
                                 <p >Tipo de Pergunta</p>
                                 <div className="EditarPerguntas-2P">
-                                    <input type="radio" id="sim" />
+                                    <input type="radio" id="sim" name="SimouNao" />
                                     <label for="sim">SIM</label>
 
-                                    <input type="radio" id="Nao" />
+                                    <input type="radio" id="Nao" name="SimouNao" />
                                     <label for="Nao">Não</label>
                                 </div>
                             </div>
@@ -46,23 +46,25 @@ function EditarPerguntas() {
                                         </select>
                                     </div>
                                     <div>
-                                        <p>Resposta 2</p>
-                                        <select name="escolha">
-                                            <option value="sim" selected>sim</option>
-                                            <option value="nao" >nao</option>
-                                        </select>
-                                        <p>Ir para:</p>
-                                        <select name="respostas">
-                                            <option value="1" selected>1</option>
-                                            <option value="2" >2</option>
-                                        </select>
+                                        <div className="EditarPerguntas-1R">
+                                            <p>Resposta 2</p>
+                                            <select name="escolha">
+                                                <option value="sim" >sim</option>
+                                                <option value="nao" selected>nao</option>
+                                            </select>
+                                            <p>Ir para:</p>
+                                            <select name="respostas">
+                                                <option value="1" >1</option>
+                                                <option value="2" selected >2</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </form>
                     </div>
-                </div>
-            </div>
+                </div >
+            </div >
         </>
     )
 }

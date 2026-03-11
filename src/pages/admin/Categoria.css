@@ -40,14 +40,14 @@
     width: 90%;
 }
 
-.cards-opcao button {
+.cards-opcao a {
     background-color: var(--fundo-cinza);
     padding: 15px 20px;
     cursor: pointer;
     border: none;
 }
 
-.cards-opcao button:hover {
+.cards-opcao a:hover {
     background-color: var(--fundo-azul-botao);
     color: var(--color-branco);
 }

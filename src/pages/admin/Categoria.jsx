@@ -10,45 +10,44 @@ function Categoria() {
                 <li>
                     <span>Água, esgoto e meio ambiente</span>
                     <div className="cards-opcao">
-                        <button>
-                            <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
-                        </button>
-                        <button>Editar</button>
+
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Editar</Link>
                     </div>
                 </li>
                 <li>
                     <span>Atendimento a consumidores</span>
                     <div className="cards-opcao">
-                        <button>Abrir</button>
-                        <button>Editar</button>
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Editar</Link>
                     </div>
                 </li>
                 <li>
                     <span>Água, esgoto e meio ambiente</span>
                     <div className="cards-opcao">
-                        <button>Abrir</button>
-                        <button>Editar</button>
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Editar</Link>
                     </div>
                 </li>
                 <li>
                     <span>Atendimento a consumidores</span>
                     <div className="cards-opcao">
-                        <button>Abrir</button>
-                        <button>Editar</button>
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Editar</Link>
                     </div>
                 </li>
                 <li>
                     <span>Água, esgoto e meio ambiente</span>
                     <div className="cards-opcao">
-                        <button>Abrir</button>
-                        <button>Editar</button>
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Editar</Link>
                     </div>
                 </li>
                 <li>
                     <span>Atendimento a consumidores</span>
                     <div className="cards-opcao">
-                        <button>Abrir</button>
-                        <button>Editar</button>
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Editar</Link>
                     </div>
                 </li>
             </ul>
