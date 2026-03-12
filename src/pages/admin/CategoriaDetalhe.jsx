@@ -1,5 +1,6 @@
 import "./CategoriaDetalhes.css"
 import { Link } from "react-router-dom"
+import { FaRegTrashAlt } from "react-icons/fa";
 
 function CategoriaDetalhes() {
     return (
@@ -25,33 +26,27 @@ function CategoriaDetalhes() {
                     <div className="CategoriaDetalhesTriagens" >
                         <div className="CategoriaDetalhesCabecalho" >
                             <h3>Segunda via Sanasa</h3>
-                            <samp>remover</samp>
+                            <span><FaRegTrashAlt /></span>
                         </div>
                         <p>Tipo: Servico digital</p>
                         <p>Ùltima atualização: 20/02/2026</p>
                         <div className="CategoriaDetalhesOpcoes">
-                            <button>
-                                <Link to="/ServiceVisualizar">Visualizar</Link>
-                            </button>
-                            <button>
-                                <Link to="/ServiceEditar">Editar</Link>
-                            </button>
-                            <button>
-                                <Link to="/ServicePerguntas">Perguntas</Link>
-                            </button>
+                            <Link to="/ServiceVisualizar">Visualizar</Link>
+                            <Link to="/ServiceEditar">Editar</Link>
+                            <Link to="/ServicePerguntas">Perguntas</Link>
                         </div>
                     </div>
                     <div className="CategoriaDetalhesTriagens" >
                         <div className="CategoriaDetalhesCabecalho" >
                             <h3>Segunda via Sanasa</h3>
-                            <samp>remover</samp>
+                            <span><FaRegTrashAlt /></span>
                         </div>
                         <p>Tipo: Servico digital</p>
                         <p>Ùltima atualização: 20/02/2026</p>
                         <div className="CategoriaDetalhesOpcoes">
-                            <button>Visualizar</button>
-                            <button>Editar</button>
-                            <button>Perguntas</button>
+                            <Link to="/ServiceVisualizar">Visualizar</Link>
+                            <Link to="/ServiceEditar">Editar</Link>
+                            <Link to="/ServicePerguntas">Perguntas</Link>
                         </div>
                     </div>
                 </div>

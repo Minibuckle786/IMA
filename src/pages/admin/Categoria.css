@@ -10,6 +10,22 @@
 
 }
 
+.cards-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards-header h3 {
+    font-size: 1.2rem;
+}
+
+.cards-header svg {
+    width: 24px;
+    height: 24px;
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;

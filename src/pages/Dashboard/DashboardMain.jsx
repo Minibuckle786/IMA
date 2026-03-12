@@ -9,9 +9,6 @@ function DashboardMain() {
                     <div className="DashboardMain-h1">
                         <h1>Meu Painel</h1>
                     </div>
-                    <div>
-                        <button className="DashboardMain-button1"> <span>+</span> Novo Painel</button>
-                    </div>
 
                 </div>
                 <hr />

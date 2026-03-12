@@ -39,7 +39,7 @@
      font-weight: 500;
  }
 
- .ServicePerguntas-header button {
+ .ServicePerguntas-header a {
      padding: 10px 20px;
  }
 
@@ -64,8 +64,10 @@
      gap: 25px;
  }
 
- .ServicePerguntas-body-button button {
+ .ServicePerguntas-body-button a {
      padding: 5px 20px;
+     border: 1px solid gray;
+     text-decoration: none;
  }
 
  .ServicePerguntas-body-perguntas {

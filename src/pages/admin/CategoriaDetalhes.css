@@ -27,6 +27,7 @@
 .CategoriaDetalhes-button,
 link {
     margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -88,10 +89,18 @@ link {
 .CategoriaDetalhesOpcoes {
     width: 90%;
     margin: auto;
+    display: flex;
 }
 
-.CategoriaDetalhesOpcoes button {
+.CategoriaDetalhesOpcoes a {
+    text-decoration: none;
     padding: 10px 20px;
     font-size: 1.3rem;
     margin: 20px 10px 20px 0;
+    border: 1px solid green;
+}
+
+span svg {
+    width: 16px;
+    height: 16px;
 }

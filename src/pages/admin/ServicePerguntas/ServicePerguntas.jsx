@@ -23,18 +23,17 @@ function ServicePerguntas() {
                                 <strong>1. Você possui matrícula da SANASA?</strong>
                                 <p>Tipo: Sim ou Não</p>
                                 <div className="ServicePerguntas-body-button">
-                                    <button>
-                                        <Link to="/EditarPerguntas">Editar</Link>
-                                    </button>
-                                    <button>Excluir</button>
+                                    <Link to="/EditarPerguntas">Editar</Link>
+                                    <Link to="/EditarPerguntas">Excluir</Link>
                                 </div>
                             </div>
                             <div className="ServicePerguntas-body-perguntas">
                                 <strong>2. Você possui matrícula da SANASA?</strong>
                                 <p>Tipo: Sim ou Não</p>
                                 <div className="ServicePerguntas-body-button">
-                                    <button>Editar</button>
-                                    <button>Excluir</button>
+
+                                    <Link to="/EditarPerguntas">Editar</Link>
+                                    <Link to="/EditarPerguntas">Excluir</Link>
                                 </div>
                             </div>
                         </div>

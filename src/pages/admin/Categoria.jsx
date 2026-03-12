@@ -1,5 +1,6 @@
 import "./Categoria.css"
 import { Link } from "react-router-dom"
+import { FiEdit } from "react-icons/fi";
 
 function Categoria() {
     return (
@@ -8,48 +9,28 @@ function Categoria() {
             <h2>Serviços por assunto</h2>
             <ul className="cards">
                 <li>
-                    <span>Água, esgoto e meio ambiente</span>
+                    <div className="cards-header">
+                        <h3>Água, esgoto e meio ambiente</h3>
+                        <Link to="/CategoriaDetalhes">
+                            <FiEdit />
+                        </Link>
+                    </div>
                     <div className="cards-opcao">
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
+                    </div>
+                </li>
+                <li>
+                    <div className="cards-header">
+                        <h3>Água, esgoto e meio ambiente</h3>
+                        <Link to="/CategoriaDetalhes">
+                            <FiEdit />
+                        </Link>
+                    </div>
+                    <div className="cards-opcao">
+                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
+                    </div>
+                </li>
 
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Editar</Link>
-                    </div>
-                </li>
-                <li>
-                    <span>Atendimento a consumidores</span>
-                    <div className="cards-opcao">
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Editar</Link>
-                    </div>
-                </li>
-                <li>
-                    <span>Água, esgoto e meio ambiente</span>
-                    <div className="cards-opcao">
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Editar</Link>
-                    </div>
-                </li>
-                <li>
-                    <span>Atendimento a consumidores</span>
-                    <div className="cards-opcao">
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Editar</Link>
-                    </div>
-                </li>
-                <li>
-                    <span>Água, esgoto e meio ambiente</span>
-                    <div className="cards-opcao">
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Editar</Link>
-                    </div>
-                </li>
-                <li>
-                    <span>Atendimento a consumidores</span>
-                    <div className="cards-opcao">
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Editar</Link>
-                    </div>
-                </li>
             </ul>
         </section>
     )
