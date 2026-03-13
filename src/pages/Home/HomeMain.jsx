@@ -1,4 +1,5 @@
 import "./HomeMain.css"
+import { Link } from "react-router-dom"
 
 function HomeMain() {
     return (
@@ -10,7 +11,7 @@ function HomeMain() {
                     <p>Ao iniciar uma triagem, você percorre etapas organizadas que analisam informações importantes para gerar uma recomendação personalizada.</p>
                     <p>O sistema organiza as informações de forma estruturada e objetiva, garantindo maior precisão na recomendação final.</p>
                 </div>
-                <button className="home-button">Iniciar Triagem</button>
+                <Link to="/Categoria" className="home-button">Iniciar Triagem</Link>
             </div>
         </main>
     )

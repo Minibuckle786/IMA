@@ -8,6 +8,7 @@ import PrivateRoute from "./routes/PrivateRoute"
 import Home from "./pages/Home/HomeMain"
 import Cadastre from "./pages/Cadastre/CadastroMain"
 import Login from "./pages/Login/LoginMain"
+import Categoria from "./pages/admin/Categoria"
 
 /* Privado */
 import Dashboard from "./pages/Dashboard/DashboardMain"
@@ -29,6 +30,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="cadastro" element={<Cadastre />} />
           <Route path="login" element={<Login />} />
+          <Route path="/Categoria" element={<Categoria />} />
         </Route>
 
         {/* Rotas privadas */}
