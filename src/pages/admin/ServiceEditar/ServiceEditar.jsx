@@ -1,12 +1,13 @@
 import "./ServiceEditar.css"
+import { Link } from "react-router-dom"
 
 function ServiceEditar() {
     return (
         <>
             <div>
                 <div className="ServiceEditar-layout">
-                    <p>Voltar para triagens</p>
-                    <h2>Editar Triagem</h2>
+                    <Link to="/CategoriaDetalhes">Voltar para triagens</Link>
+                    <h2>Triagem</h2>
                 </div>
                 <div className="ServiceEditar-layout2">
                     <div className="ServiceEditar-body">
@@ -56,7 +57,7 @@ function ServiceEditar() {
                             </div>
 
 
-
+                            <button className="serviceEditarSalvar">Salvar</button>
 
                         </form>
                     </div>

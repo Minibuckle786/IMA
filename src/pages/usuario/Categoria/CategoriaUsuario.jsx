@@ -1,6 +1,5 @@
-import "./Categoria.css"
+import "./CategoriaUsuario.css"
 import { Link } from "react-router-dom"
-import { FiEdit } from "react-icons/fi";
 
 function Categoria() {
     return (
@@ -11,23 +10,22 @@ function Categoria() {
                 <li>
                     <div className="cards-header">
                         <h3>Água, esgoto e meio ambiente</h3>
-                        <Link to="/CategoriaDetalhes">
-                            <FiEdit />
+                        <Link to="/CategoriaDetalhesUsuario">
                         </Link>
                     </div>
                     <div className="cards-opcao">
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
+                        <Link to="/CategoriaDetalhesUsuario" className="header_actions_botao">Abrir</Link>
                     </div>
                 </li>
                 <li>
                     <div className="cards-header">
                         <h3>Água, esgoto e meio ambiente</h3>
-                        <Link to="/CategoriaDetalhes">
-                            <FiEdit />
+                        <Link to="/CategoriaDetalhesUsuario">
+
                         </Link>
                     </div>
                     <div className="cards-opcao">
-                        <Link to="/CategoriaDetalhes" className="header_actions_botao">Abrir</Link>
+                        <Link to="/CategoriaDetalhesUsuario" className="header_actions_botao">Abrir</Link>
                     </div>
                 </li>
 

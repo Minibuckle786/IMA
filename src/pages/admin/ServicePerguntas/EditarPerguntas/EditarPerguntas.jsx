@@ -7,7 +7,7 @@ function EditarPerguntas() {
             <div>
                 <div className="center">
                     <div className="header-body">
-                        <p>Voltar para triagens</p>
+                        <Link to="/ServicePerguntas">Voltar para triagens</Link>
                         <h2>Perguntas da triagem</h2>
                     </div>
                 </div>
@@ -61,6 +61,7 @@ function EditarPerguntas() {
                                     </div>
                                 </div>
                             </div>
+                            <button>Salvar</button>
                         </form>
                     </div>
                 </div >

@@ -7,7 +7,7 @@ function ServicePerguntas() {
             <div>
                 <div className="ServicePerguntas-layout">
                     <div className="ServicePerguntas-layout-body">
-                        <p>Voltar para triagens</p>
+                        <Link to="/CategoriaDetalhes">Voltar para triagens</Link>
                         <h2>Perguntas da triagem</h2>
                         <p>Triagem: Segunda via SANASA</p>
                     </div>
@@ -24,7 +24,7 @@ function ServicePerguntas() {
                                 <p>Tipo: Sim ou Não</p>
                                 <div className="ServicePerguntas-body-button">
                                     <Link to="/EditarPerguntas">Editar</Link>
-                                    <Link to="/EditarPerguntas">Excluir</Link>
+                                    <Link to="">Excluir</Link>
                                 </div>
                             </div>
                             <div className="ServicePerguntas-body-perguntas">
@@ -33,7 +33,7 @@ function ServicePerguntas() {
                                 <div className="ServicePerguntas-body-button">
 
                                     <Link to="/EditarPerguntas">Editar</Link>
-                                    <Link to="/EditarPerguntas">Excluir</Link>
+                                    <Link to="">Excluir</Link>
                                 </div>
                             </div>
                         </div>

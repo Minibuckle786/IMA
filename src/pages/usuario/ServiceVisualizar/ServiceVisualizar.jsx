@@ -1,14 +1,14 @@
 import "./ServiceVisualizar.css"
-
+import { Link } from "react-router-dom"
 
 function ServiceVisualizar() {
     return (
-        <>
+        <div className="main">
             <div className="servicevisualizar-layout">
                 <div className="header-visualizar">
-                    <p>Voltar para triagens</p>
+                    <Link to="/CategoriaDetalhesUsuario">Voltar para triagens</Link>
                     <h2>Visualizando: <span>Segunda via Sanasa</span> </h2>
-                    <p>Modo simulação</p>
+
                 </div>
                 <div className="body-visualizar">
                     <div className="bodyLayout-visualizar">
@@ -44,7 +44,7 @@ function ServiceVisualizar() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -9,11 +9,15 @@ import Home from "./pages/Home/HomeMain"
 import Cadastre from "./pages/Cadastre/CadastroMain"
 import Login from "./pages/Login/LoginMain"
 import Categoria from "./pages/admin/Categoria"
+import DashboardUsuario from "./pages/usuario/DashboardMainUsuario/DashboardMainUsuario"
+import CategoriaUsuario from "./pages/usuario/Categoria/CategoriaUsuario"
+import CategoriaDetalhesUsuario from "./pages/usuario/Categoria/CategoriaDetalheUsuario"
+import ServiceVisualizar from "./pages/usuario/ServiceVisualizar/ServiceVisualizar"
 
 /* Privado */
 import Dashboard from "./pages/Dashboard/DashboardMain"
+/* import Categoria from "./pages/admin/Categoria" */
 import CategoriaDetalhes from "./pages/admin/CategoriaDetalhe"
-import ServiceVisualizar from "./pages/admin/ServiceVisualizar/ServiceVisualizar"
 import ServiceEditar from "./pages/admin/ServiceEditar/ServiceEditar"
 import ServicePerguntas from "./pages/admin/ServicePerguntas/ServicePerguntas"
 import EditarPerguntas from "./pages/admin/ServicePerguntas/EditarPerguntas/EditarPerguntas"
@@ -31,6 +35,11 @@ function App() {
           <Route path="cadastro" element={<Cadastre />} />
           <Route path="login" element={<Login />} />
           <Route path="/Categoria" element={<Categoria />} />
+          <Route path="/DashboardUsuario" element={<DashboardUsuario />} />
+          <Route path="/CategoriaUsuario" element={<CategoriaUsuario />} />
+          <Route path="/CategoriaDetalhesUsuario" element={<CategoriaDetalhesUsuario />} />
+          <Route path="ServiceVisualizar" element={<ServiceVisualizar />} />
+
         </Route>
 
         {/* Rotas privadas */}
@@ -42,8 +51,8 @@ function App() {
           }
         >
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="CategoriaDetalhes" element={<CategoriaDetalhes />} />
-          <Route path="ServiceVisualizar" element={<ServiceVisualizar />} />
+          <Route path="/Categoria" element={<Categoria />} />
+          <Route path="/CategoriaDetalhes" element={<CategoriaDetalhes />} />
           <Route path="ServiceEditar" element={<ServiceEditar />} />
           <Route path="ServicePerguntas" element={<ServicePerguntas />} />
           <Route path="EditarPerguntas" element={<EditarPerguntas />} />

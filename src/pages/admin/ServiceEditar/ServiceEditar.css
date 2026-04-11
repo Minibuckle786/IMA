@@ -6,7 +6,7 @@
 
 }
 
-.ServiceEditar-layout p {
+.ServiceEditar-layout a {
     font-size: 1.2rem;
 }
 
@@ -73,4 +73,9 @@
 #descricao {
     margin: 10px;
     height: 150px;
+}
+
+.serviceEditarSalvar {
+    padding: 15px 0;
+    font-size: 12px;
 }

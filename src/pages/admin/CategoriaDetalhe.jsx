@@ -4,18 +4,18 @@ import { FaRegTrashAlt } from "react-icons/fa";
 
 function CategoriaDetalhes() {
     return (
-        <>
+        <div className="main">
             <section className="CategoriaDetalhes-fundo">
                 <div className="CategoriaDetalhes-layout">
                     <div className="CategoriaDetalhes-texto">
-                        <button>Voltar para Categoria</button>
+                        <Link to="/dashboard">Voltar para Categoria</Link>
                         <h2>Àgua, esgoto e meio ambiente</h2>
                         <p>Gerencie as triagens deste assunto</p>
                     </div>
                     <hr />
                     <div className="CategoriaDetalhes-button">
                         <input className="CategoriaDetalhes-button-1" type="text" placeholder="Buscar triagem..." />
-                        <button className="CategoriaDetalhes-button-2"><span>+</span>Nova Triagem</button>
+                        <Link className="CategoriaDetalhes-button-2" to="/ServiceEditar"><span>+</span>Nova Triagem</Link>
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@ function CategoriaDetalhes() {
                 </div>
 
             </section>
-        </>
+        </div>
     )
 }
 

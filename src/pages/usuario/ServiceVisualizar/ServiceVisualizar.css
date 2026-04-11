@@ -5,14 +5,16 @@
 
 }
 
-.header-visualizar p {
+.header-visualizar a {
     font-size: 1.2rem;
     margin: 15px 0;
+    display: inline-block;
 }
 
 .header-visualizar h2 {
     font-size: 1.5rem;
     font-weight: 400;
+    margin-bottom: 15px;
 }
 
 .header-visualizar span {
